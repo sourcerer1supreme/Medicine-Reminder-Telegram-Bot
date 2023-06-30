@@ -29,8 +29,6 @@ bot = Bot(API_Key)
 updater = Updater(API_Key, use_context=True)
 updater.start_polling() 
 
-#https://api.telegram.org/bot2070568282:AAFdO-qIrscFwjrA0H6iMwiSwdVsqlTEJus/getUpdates
-
 while(True):
 
     current_time = datetime.now(timezone('Asia/Kolkata'))
