@@ -22,8 +22,8 @@ current_time_string = current_time.strftime("%H:%M")
 print("time: ", current_time_string)
 
 
-API_Key = "2070568282:AAFdO-qIrscFwjrA0H6iMwiSwdVsqlTEJus"
-CHAT_ID = "-1001422753457"#"-797096123" "1036455085"
+API_Key = "*******************************" #key here
+CHAT_ID = "****************" #chat ID here
 
 bot = Bot(API_Key)
 updater = Updater(API_Key, use_context=True)
